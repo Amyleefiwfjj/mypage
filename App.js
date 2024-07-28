@@ -4,7 +4,10 @@ import Home from './pages/Home/Home';
 import Login from './components/Login/Login';
 import SignUp from './components/SignUp/SignUp';
 import Dashboard from './pages/Dashboard/Dashboard';
-/*import my-page from './pages/Dashboard/Dashboard';*/
+/*
+import MyPage from './pages/MyPage/MyPage';
+import EditPage from './pages/EditPage/EditPage';
+*/
 import './App.css';
 
 function App() {
@@ -16,7 +19,8 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/dashboard" element={<Dashboard />} />
-{/*       <Route path="/my_page" element={<my_page />} />*/}
+{/*       <Route path="/mypage" element={<MyPage />} />
+          <Route path="/edit" element={<EditPage />}*/}
         </Routes>
       </div>
     </Router>
