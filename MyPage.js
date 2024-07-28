@@ -3,14 +3,14 @@ import { useNavigate } from 'react-router-dom';
 import './MyPage.css';
 
 function MyPage() {
-  const navigate = useNavigate(); // Initialize useNavigate
+  const navigate = useNavigate(); 
 
   const handleEditClick = () => {
-    navigate('/edit'); // Navigate to EditPage
+    navigate('/edit');
   };
 
   return (
-    <div className="my-page">
+    <div className="MyPage">
       <h1>MY PAGE</h1>
       <button onClick={handleEditClick}>수정하기</button>
       <table>
