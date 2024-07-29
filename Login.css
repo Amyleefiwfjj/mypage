@@ -13,8 +13,8 @@
   padding: 27px;
   text-align: center;
   margin-bottom: 40px;
-  display: flex;
-  justify-content: flex-end;
+  /*display: flex;
+  justify-content: flex-end;*/
 }
 
 .login-container {
@@ -67,7 +67,7 @@
   color: red;
   margin-top: 10px;
 }
-
+/*
 .extra-buttons {
   display: flex;
   align-items: center;
@@ -78,7 +78,7 @@
   text-decoration: none;
   color: black;
   margin: 0 10px;
-}
+}*/
 
 .text-button {
   background: none;

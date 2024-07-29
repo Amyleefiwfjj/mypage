@@ -14,8 +14,8 @@
     padding: 27px;
     text-align: center;
     margin-bottom: 40px;
-    display: flex;
-    justify-content: flex-end;
+    /*display: flex;
+    justify-content: flex-end;*/
   }
   
   .signup-progress {
@@ -123,6 +123,7 @@
   button:hover {
     background-color: #8fa9d6;
   }
+  /*
   .extra-buttons {
     display: flex;
     align-items: center;
@@ -133,7 +134,7 @@
     text-decoration: none;
     color: black;
     margin: 0 10px;
-  }
+  }*/
   
   .SignUp button [type="submit"] {
     width: 100%;
