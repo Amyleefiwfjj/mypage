@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate, Link} from 'react-router-dom';
 import './Login.css';
 import PasswordRecovery from './PasswordRecovery';
 
@@ -55,12 +55,13 @@ function Login() {
   };
 
   const handleSignUp = () => {
-    navigate('/signup'); // Navigate to the SignUp component
+    navigate('/signup');
   };
 
   return (
     <div className="Login">
       <header className="login-header">
+        
         <div className="return">
           <Link to="/">홈으로 돌아가기</Link>
         </div>

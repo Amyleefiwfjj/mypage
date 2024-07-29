@@ -68,17 +68,17 @@
   margin-top: 10px;
 }
 
-/*.extra-buttons {
+.extra-buttons {
   display: flex;
   align-items: center;
   margin-right: 1em;
-}*/
+}
 
-/*.extra-buttons a {
+.extra-buttons a {
   text-decoration: none;
   color: black;
   margin: 0 10px;
-}*/
+}
 
 .text-button {
   background: none;
