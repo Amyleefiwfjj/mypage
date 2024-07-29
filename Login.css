@@ -67,8 +67,8 @@
   color: red;
   margin-top: 10px;
 }
-/*
-.extra-buttons {
+
+/*.extra-buttons {
   display: flex;
   align-items: center;
   margin-right: 1em;
@@ -79,7 +79,6 @@
   color: black;
   margin: 0 10px;
 }*/
-
 .text-button {
   background: none;
   border: none;
@@ -95,7 +94,6 @@
   color: #0056b3;
 }
 
-/* Footer styles */
 footer {
   margin-top: auto;
   padding: 20px;
@@ -155,10 +153,11 @@ footer {
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
-
-.password-recovery button:hover {
+/*
+button:hover {
   background-color: #0056b3;
-}
+}*/
+/*일부러 hover색 맞추기 위해 이렇게 썼습니다*/
 
 .password-recovery .error-message {
   color: red;
