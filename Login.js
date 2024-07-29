@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate, Link} from 'react-router-dom';
+import { useNavigate, /*Link*/ } from 'react-router-dom';
 import './Login.css';
 import PasswordRecovery from './PasswordRecovery';
 
@@ -10,7 +10,7 @@ function Login() {
   });
   const [error, setError] = useState('');
   const [isFindingPassword, setIsFindingPassword] = useState(false);
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -61,10 +61,10 @@ function Login() {
   return (
     <div className="Login">
       <header className="login-header">
-        
-        <div className="return">
+
+        {/*<div className="return">
           <Link to="/">홈으로 돌아가기</Link>
-        </div>
+        </div>*/}
       </header>
       <div className="login-container">
         {isFindingPassword ? (
