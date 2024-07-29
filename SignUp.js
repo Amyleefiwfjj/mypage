@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Link} from 'react-router-dom';
+/*import {Link} from 'react-router-dom';*/
 import './SignUp.css';
 
 function SignUp() {
@@ -59,9 +59,9 @@ function SignUp() {
   return (
     <div className="SignUp">
       <header className="signup-header">
-        <div className="return">
+        {/*<div className="return">
           <Link to="/">홈으로 돌아가기</Link>
-        </div>
+        </div>*/}
       </header>
       <h2>회원가입</h2>
       <div className="signup-progress">
